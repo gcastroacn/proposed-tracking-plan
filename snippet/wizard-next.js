@@ -6,11 +6,6 @@ window.adobeDataLayer.push({
     viaggioPartecipanti: '',
     viaggioFotoLuoghi: '',
     viaggioWizardStep: '',
-    pageName: '',
-    viaggioTipo: '',
-    viaggioPartecipanti: '',
-    viaggioFotoLuoghi: '',
-    viaggioWizardStep: ''
   },
 });
 

@@ -1,6 +1,6 @@
 // CP.16
 window.adobeDataLayer.push({
-    event: 'deactivate-account',
+    event: 'cookie-acceptance',
     data: {
         // TBD
     },

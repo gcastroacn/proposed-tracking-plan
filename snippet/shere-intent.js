@@ -1,6 +1,6 @@
 // CP.5
 window.adobeDataLayer.push({
-    event: 'share',
+    event: 'share-intent',
     data: {
         pageName:'',
     },

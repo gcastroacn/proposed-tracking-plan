@@ -1,8 +1,10 @@
 // R.002.2
 window.adobeDataLayer.push({
-    event: 'submit-registration',
+    event: 'registration-submit',
     data: {
         registrationType:'',
-        UID:''        
+        UID:'' ,
+newsletterActive:'',
+newsletterTopic:''
     },
   });

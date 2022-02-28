@@ -1,6 +1,6 @@
 // CP.6
 window.adobeDataLayer.push({
-    event: 'share-perform',
+    event: 'share-intent-perform',
     data: {
         pageName:'',
         socialDestination:''
