@@ -1,0 +1,124 @@
+{
+   "page": {
+      "pageInfo": {
+         "pageName": "",
+         "siteSection": "",
+         "siteSectionLevel2": "",
+         "siteSectionLevel3": "",
+         "siteSectionLevel4": "",
+         "siteSectionLevel5": "",
+         "siteSectionLevel6": ""
+      },
+      "content": {
+         "contentTag": "",
+         "contentType": "",
+         "tagTitle": "",
+         "destinationRegion": "",
+         "destinationName": "",
+         "destinationType": "",
+         "contentAuthor": "",
+         "estimatedReadTime": ""
+      },
+      "attributes": {
+         "languageURL": "",
+         "clickMap": "",
+         "pageOrigin": "",
+         "pageNotFound": "",
+         "internalReferrer": "",
+         "internalCampaignSource": "",
+         "internalCampaignMedium": "",
+         "internalCampaignName": "",
+         "campaign": ""
+      }
+   },
+   "wizard": {
+      "viaggioTipo": "",
+      "viaggioStagione": "",
+      "viaggioPartecipanti": "",
+      "viaggioFotoLuoghi": "",
+      "viaggioWizardStep": ""
+   },
+   "favourite": {
+      "cardName": "",
+      "cardPosition": "",
+      "isFavourite": "",
+      "cardPageSection": "",
+      "cardOrigin": ""
+   },
+   "newsletter": {
+      "newsletterActive": "",
+      "newsletterTopic": ""
+   },
+   "social": {
+      "socialDestination": ""
+   },
+   "download": {
+      "appType": "",
+      "downloadLink": ""
+   },
+   "exitLink": {
+      "extLinkAnchorText": "",
+      "extLinkDestination": "",
+      "extLinkinArticle": "",
+      "extLinkMetas": ""
+   },
+   "userProfile": {
+      "UID": "",
+      "loginStatus": "",
+      "loginType": "",
+      "recoveryStatus": "",
+      "accountDelete": ""
+   },
+   "component": {
+      "form": {
+         "formName": "",
+         "registrationType": ""
+      },
+      "carousel": {
+         "carouselTotalItem": "",
+         "carouselType": "",
+         "carouselDomID": "",
+         "carouselIntent": ""
+      },
+      "menu": {
+         "menuFirstLevel": "",
+         "menuSecondLevel": "",
+         "menuLabel": ""
+      },
+      "gallery": {
+         "galleryMaxItem": "",
+         "galleryClickDirection": "",
+         "galleryPhotoItem": ""
+      },
+      "video": {
+         "videoID": "",
+         "videoTitle": "",
+         "videoProvider": "",
+         "videoSection": "",
+         "videoDuration": "",
+         "videoEvent": "",
+         "videoEventAtTime": "",
+         "videoPlayerType": "",
+         "videoCustomEvent": "",
+         "videoViewsPerc": ""
+      },
+      "search": {
+         "searchTerm": "",
+         "byFilter": "",
+         "byFilterRefine": "",
+         "searchAction": "",
+         "searchType": "",
+         "cardName": ""
+      },
+      "widgetBookign": {
+         "CTAclick": ""
+      },
+      "card": {
+         "cardName": "",
+         "cardPosition": "",
+         "extLinkinArticle": "",
+         "cardPageSection": "",
+         "cardOrigin": ""
+      }
+   }
+}
