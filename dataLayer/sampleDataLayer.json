@@ -7,9 +7,20 @@
          "siteSectionLevel3": "",
          "siteSectionLevel4": "",
          "siteSectionLevel5": "",
-         "siteSectionLevel6": ""
+         "siteSectionLevel6": "",
+         "languageURL": "",
+         "internalReferrer": "",
+         "currency": "",
+         "clickMap": "",
+         "pageOrigin": "",
+         "pageNotFound": "",
+         "internalCampaignSource": "",
+         "internalCampaignMedium": "",
+         "internalCampaignName": "",
+         "campaign": "",
+         "returnFrequency": ""
       },
-      "content": {
+      "attributes": {
          "contentTag": "",
          "contentType": "",
          "tagTitle": "",
@@ -18,17 +29,6 @@
          "destinationType": "",
          "contentAuthor": "",
          "estimatedReadTime": ""
-      },
-      "attributes": {
-         "languageURL": "",
-         "clickMap": "",
-         "pageOrigin": "",
-         "pageNotFound": "",
-         "internalReferrer": "",
-         "internalCampaignSource": "",
-         "internalCampaignMedium": "",
-         "internalCampaignName": "",
-         "campaign": ""
       }
    },
    "wizard": {
