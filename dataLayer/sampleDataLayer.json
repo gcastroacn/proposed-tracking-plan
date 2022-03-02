@@ -11,7 +11,7 @@
          "languageURL": "",
          "internalReferrer": "",
          "currency": "",
-         "clickMap": "",
+         "clickMap": 1,
          "pageOrigin": "",
          "pageNotFound": "",
          "internalCampaignSource": "",
@@ -21,32 +21,29 @@
          "returnFrequency": ""
       },
       "attributes": {
-         "contentTag": "",
+         "contentTag": [],
          "contentType": "",
          "tagTitle": "",
+         "contentTitle": "",
          "destinationRegion": "",
-         "destinationName": "",
+         "destinationName": [],
          "destinationType": "",
          "contentAuthor": "",
-         "estimatedReadTime": ""
+         "estimatedReadTime": "",
+         "contentID": "",
+         "destinationCoord": "",
+         "contentRead": ""
       }
    },
    "wizard": {
       "viaggioTipo": "",
       "viaggioStagione": "",
       "viaggioPartecipanti": "",
-      "viaggioFotoLuoghi": "",
-      "viaggioWizardStep": ""
-   },
-   "favourite": {
-      "cardName": "",
-      "cardPosition": "",
-      "isFavourite": "",
-      "cardPageSection": "",
-      "cardOrigin": ""
+      "viaggioFotoLuoghi": [],
+      "viaggioWizardStep": 1
    },
    "newsletter": {
-      "newsletterActive": "",
+      "newsletterActive": true,
       "newsletterTopic": ""
    },
    "social": {
@@ -70,12 +67,11 @@
       "accountDelete": ""
    },
    "component": {
-      "form": {
-         "formName": "",
+      "submitForm": {
          "registrationType": ""
       },
       "carousel": {
-         "carouselTotalItem": "",
+         "carouselTotalItem": 1,
          "carouselType": "",
          "carouselDomID": "",
          "carouselIntent": ""
@@ -86,9 +82,9 @@
          "menuLabel": ""
       },
       "gallery": {
-         "galleryMaxItem": "",
+         "galleryMaxItem": 1,
          "galleryClickDirection": "",
-         "galleryPhotoItem": ""
+         "galleryPhotoItem": 1
       },
       "video": {
          "videoID": "",
@@ -118,7 +114,8 @@
          "cardPosition": "",
          "extLinkinArticle": "",
          "cardPageSection": "",
-         "cardOrigin": ""
+         "cardOrigin": "",
+         "isFavourite": true
       }
    }
 }
