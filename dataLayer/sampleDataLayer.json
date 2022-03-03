@@ -35,40 +35,46 @@
          "contentRead": ""
       }
    },
-   "wizard": {
-      "viaggioTipo": "",
-      "viaggioStagione": "",
-      "viaggioPartecipanti": "",
-      "viaggioFotoLuoghi": [],
-      "viaggioWizardStep": 1
-   },
-   "newsletter": {
-      "newsletterActive": true,
-      "newsletterTopic": ""
-   },
-   "social": {
-      "socialDestination": ""
-   },
-   "download": {
-      "appType": "",
-      "downloadLink": ""
-   },
-   "exitLink": {
-      "extLinkAnchorText": "",
-      "extLinkDestination": "",
-      "extLinkinArticle": "",
-      "extLinkMetas": ""
-   },
+   "links": {
+      "download": {
+         "appType": "",
+         "downloadLink": ""
+      },
+      "exitLink": {
+         "exitLinkAnchorText": "",
+         "exitLinkDestination": "",
+         "exitLinkinArticle": "",
+         "exitLinkMetas": "",
+         "socialDestination": ""
+      },
+      "widgetBooking": {
+         "CTAclick": ""
+      }
+   }
    "userProfile": {
       "UID": "",
       "loginStatus": "",
-      "loginType": "",
-      "recoveryStatus": "",
-      "accountDelete": ""
+      "loginType": ""
    },
    "component": {
-      "submitForm": {
-         "registrationType": ""
+      "wizard": {
+         "viaggioTipo": "",
+         "viaggioStagione": "",
+         "viaggioPartecipanti": "",
+         "viaggioFotoLuoghi": [],
+         "viaggioWizardStep": 1
+      },
+      "form":{
+         "name":"",
+         "step":"",
+         "error":"",
+         "registrationType": "",
+         "recoveryStatus": "",
+         "accountDelete": ""
+         "newsletter": {
+            "newsletterActive": true,
+            "newsletterTopic": ""
+         },
       },
       "carousel": {
          "carouselTotalItem": 1,
@@ -105,9 +111,6 @@
          "searchAction": "",
          "searchType": "",
          "cardName": ""
-      },
-      "widgetBookign": {
-         "CTAclick": ""
       },
       "card": {
          "cardName": "",
