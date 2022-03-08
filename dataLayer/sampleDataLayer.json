@@ -36,20 +36,16 @@
       }
    },
    "links": {
-      "download": {
-         "appType": "",
-         "downloadLink": ""
-      },
-      "exitLink": {
-         "exitLinkAnchorText": "",
-         "exitLinkDestination": "",
-         "exitLinkinArticle": "",
-         "exitLinkMetas": "",
-         "socialDestination": ""
-      },
-      "widgetBooking": {
-         "CTAclick": ""
-      }
+      "linkType": "",
+      "linkName": "",
+      "linkComponent":"",
+      "linkDestination": "",
+      "linkContent": "",
+      "appType": "",
+      "linkAnchorText": "",
+      "exitLinkMetas": "",
+      "linkinArticle": "",
+      "socialDestination": ""
    },
    "userProfile": {
       "UID": "",
@@ -80,7 +76,8 @@
          "carouselTotalItem": 1,
          "carouselType": "",
          "carouselDomID": "",
-         "carouselIntent": ""
+         "carouselIntent": "",
+         "cardOrigin": ""
       },
       "menu": {
          "menuFirstLevel": "",
@@ -102,7 +99,8 @@
          "videoEventAtTime": "",
          "videoPlayerType": "",
          "videoCustomEvent": "",
-         "videoViewsPerc": ""
+         "videoViewsPerc": "",
+         "contentTag":""
       },
       "search": {
          "searchTerm": "",
@@ -110,15 +108,23 @@
          "byFilterRefine": "",
          "searchAction": "",
          "searchType": "",
-         "cardName": ""
+         "cardName": "",
+         "contentTag": "",
+         "contentType": "",
+         "clicked":""
       },
       "card": {
          "cardName": "",
+         "contentType": "",
+         "contentTag": "",
          "cardPosition": "",
-         "extLinkinArticle": "",
          "cardPageSection": "",
          "cardOrigin": "",
          "isFavourite": true
+      },
+      "share": {
+      "pageName": "",
+      "socialDestination": ""
       }
    }
 }
