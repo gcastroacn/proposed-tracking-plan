@@ -18,16 +18,17 @@
          "internalCampaignMedium": "",
          "internalCampaignName": "",
          "campaign": "",
-         "returnFrequency": ""
+         "environment": ""
       },
       "attributes": {
          "contentTag": [],
          "contentType": "",
+         "destinationRelatedList": "",
          "tagTitle": "",
          "contentTitle": "",
-         "destinationRegion": "",
          "destinationName": [],
          "destinationType": "",
+         "destinationRegion": "",
          "contentAuthor": "",
          "estimatedReadTime": "",
          "contentID": "",
@@ -35,17 +36,14 @@
          "contentRead": ""
       }
    },
-   "links": {
+   "link": {
       "linkType": "",
       "linkName": "",
       "linkComponent":"",
       "linkDestination": "",
-      "linkContent": "",
-      "appType": "",
-      "linkAnchorText": "",
       "exitLinkMetas": "",
       "linkinArticle": "",
-      "socialDestination": ""
+      "widgetImpression": ""
    },
    "userProfile": {
       "UID": "",
@@ -54,16 +52,16 @@
    },
    "component": {
       "wizard": {
-         "viaggioTipo": "",
          "viaggioStagione": "",
          "viaggioPartecipanti": "",
          "viaggioFotoLuoghi": [],
          "viaggioWizardStep": 1
       },
       "form":{
-         "name":"",
-         "step":"",
-         "error":"",
+         "formName": "",
+         "formStep": "",
+         "formError": "",
+         "isTouched": "",
          "registrationType": "",
          "recoveryStatus": "",
          "accountDelete": "",
