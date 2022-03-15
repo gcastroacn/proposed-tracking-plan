@@ -18,12 +18,19 @@
          "internalCampaignMedium": "",
          "internalCampaignName": "",
          "campaign": "",
-         "environment": ""
+         "environment": "",
+         "method": "",
+         "query": "",
+         "pagePathname": "",
+         "pageHostname": "",
+         "callID": "",
+         "callError": "",
+         "userAgent": ""
       },
       "attributes": {
          "contentTag": [],
          "contentType": "",
-         "destinationRelatedList": "",
+         "destinationRelatedList": [],
          "tagTitle": "",
          "contentTitle": "",
          "destinationName": [],
@@ -109,12 +116,14 @@
          "cardName": "",
          "contentTag": "",
          "contentType": "",
-         "clicked":""
+         "clicked":"",
+         "destinationRelatedList": ""
       },
       "card": {
          "cardName": "",
          "contentType": "",
          "contentTag": "",
+         "destinationRelatedList": "",
          "cardPosition": "",
          "cardPageSection": "",
          "cardOrigin": "",
