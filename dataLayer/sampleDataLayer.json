@@ -3,21 +3,21 @@
       "pageInfo": {
          "pageName": "",
          "siteSection": "",
+         "languageURL": "",
          "siteSectionLevel2": "",
          "siteSectionLevel3": "",
          "siteSectionLevel4": "",
          "siteSectionLevel5": "",
          "siteSectionLevel6": "",
-         "languageURL": "",
-         "internalReferrer": "",
-         "currency": "",
          "clickMap": 1,
-         "pageOrigin": "",
+         "contentOrigin":"",
          "pageNotFound": "",
          "internalCampaignSource": "",
          "internalCampaignMedium": "",
          "internalCampaignName": "",
          "campaign": "",
+         "currency": "",
+         "internalReferrer": "",
          "environment": "",
          "method": "",
          "query": "",
@@ -25,53 +25,59 @@
          "pageHostname": "",
          "callID": "",
          "callError": "",
-         "userAgent": ""
+         "pageLoadingTime": ""
       },
       "attributes": {
-         "contentTag": [],
          "contentType": "",
          "destinationRelatedList": [],
+         "isFavourite":"",
+         "contentTag": [],
+         "contentAuthor": "",
+         "contentID": "",
+         "contentRead": "",
+         "estimatedReadTime": "",
          "tagTitle": "",
          "contentTitle": "",
-         "destinationName": [],
-         "destinationType": "",
-         "destinationRegion": "",
-         "contentAuthor": "",
-         "estimatedReadTime": "",
-         "contentID": "",
-         "destinationCoord": "",
-         "contentRead": ""
+         "finalPageName":""
       }
    },
    "link": {
       "linkType": "",
-      "linkName": "",
-      "linkComponent":"",
+      "ctaName": "",
       "linkDestination": "",
-      "exitLinkMetas": "",
-      "linkinArticle": "",
-      "widgetImpression": ""
+      "componentType":"",
+      "componentName":"",
+      "contentPosition":"",
+      "linkExtMetas": "",
+      "widgetImpression": "",
+      "finalPageName":"",
+      "socialDestination": "",
+      "contentOrigin":""
    },
    "userProfile": {
       "UID": "",
       "loginStatus": "",
       "loginType": ""
    },
+   "cookie-acceptance": {
+   },
    "component": {
       "wizard": {
-         "viaggioStagione": "",
-         "viaggioPartecipanti": "",
-         "viaggioFotoLuoghi": [],
-         "viaggioWizardStep": 1
+         "travelSeason": "",
+         "travelParticipants": "",
+         "travelInterests": [],
+         "travelWizardStep": 1
       },
       "form":{
          "formName": "",
-         "formStep": "",
+         "formFieldName":"",
+         "formEnd":"",
          "formError": "",
          "isTouched": "",
          "registrationType": "",
-         "recoveryStatus": "",
-         "accountDelete": "",
+         "recoveryStatus": true,
+         "recoveryStatusComplete": true,
+         "accountDelete": true,
          "newsletter": {
             "newsletterActive": true,
             "newsletterTopic": ""
@@ -79,59 +85,49 @@
       },
       "carousel": {
          "carouselTotalItem": 1,
-         "carouselType": "",
-         "carouselDomID": "",
+         "destinationRelatedList":"",
+         "contentType":"",
          "carouselIntent": "",
-         "cardOrigin": ""
-      },
-      "menu": {
-         "menuFirstLevel": "",
-         "menuSecondLevel": "",
-         "menuLabel": ""
+         "contentOrigin": ""
       },
       "gallery": {
          "galleryMaxItem": 1,
          "galleryClickDirection": "",
-         "galleryPhotoItem": 1
+         "galleryPhotoItem": 1,
+         "destinationRelatedList": []
       },
       "video": {
          "videoID": "",
          "videoTitle": "",
          "videoProvider": "",
-         "videoSection": "",
+         "componentName":"",
+         "componentType":"",
          "videoDuration": "",
          "videoEvent": "",
          "videoEventAtTime": "",
          "videoPlayerType": "",
-         "videoCustomEvent": "",
          "videoViewsPerc": "",
-         "contentTag":""
+         "destinationRelatedList":""
       },
       "search": {
          "searchTerm": "",
          "byFilter": "",
+         "searchType": "",
          "byFilterRefine": "",
          "searchAction": "",
-         "searchType": "",
-         "cardName": "",
-         "contentTag": "",
+         "finalPageName":"",
          "contentType": "",
-         "clicked":"",
          "destinationRelatedList": ""
       },
       "card": {
-         "cardName": "",
          "contentType": "",
-         "contentTag": "",
          "destinationRelatedList": "",
-         "cardPosition": "",
-         "cardPageSection": "",
-         "cardOrigin": "",
-         "isFavourite": true
-      },
-      "share": {
-      "pageName": "",
-      "socialDestination": ""
+         "contentPosition": "",
+         "contentOrigin": "",
+         "finalPageName":"",
+         "componentType":"",
+         "componentName":"",
+         "isFavourite":""
       }
    }
 }
