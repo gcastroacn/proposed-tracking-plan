@@ -26,9 +26,9 @@
       },
       "attributes": {
          "contentType": "",
-         "destinationRelatedList": [],
+         "destinationRelatedList": [2162,82391],
          "isFavourite":"",
-         "contentTag": "",
+         "contentTag": [],
          "contentAuthor": "",
          "contentID": "",
          "contentRead": "",
@@ -116,7 +116,7 @@
          "searchTerm": "",
          "byFilter": "",
          "searchType": "",
-         "byFilterRefine": [],
+         "byFilterRefine": "",
          "searchAction": "",
          "contentType": "",
          "destinationRelatedList": []
