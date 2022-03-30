@@ -3,29 +3,26 @@
       "pageInfo": {
          "pageName": "",
          "siteSection": "",
-         "languageURL": "",
          "siteSectionLevel2": "",
          "siteSectionLevel3": "",
          "siteSectionLevel4": "",
          "siteSectionLevel5": "",
          "siteSectionLevel6": "",
          "clickMap": 1,
-         "contentOrigin":"",
+         "contentOrigin":"TBD",
          "pageNotFound": "",
-         "internalCampaignSource": "",
-         "internalCampaignMedium": "",
-         "internalCampaignName": "",
-         "campaign": "",
+         "internalCampaignSource": "TBD",
+         "internalCampaignMedium": "TBD",
+         "internalCampaignName": "TBD",
+         "campaign": "TBD",
          "currency": "",
          "internalReferrer": "",
-         "environment": "",
-         "method": "",
-         "query": "",
          "pagePathname": "",
          "pageHostname": "",
-         "callID": "",
-         "callError": "",
-         "pageLoadingTime": ""
+         "pageLoadingTime": "",
+         "languageURL": "",
+         "environment": "",
+         "digitalProperty": ""
       },
       "attributes": {
          "contentType": "",
@@ -37,8 +34,7 @@
          "contentRead": "",
          "estimatedReadTime": "",
          "tagTitle": "",
-         "contentTitle": "",
-         "finalPageName":""
+         "contentTitle": ""
       }
    },
    "link": {
@@ -49,7 +45,6 @@
       "componentName":"",
       "contentPosition":"",
       "linkExtMetas": "",
-      "widgetImpression": "",
       "finalPageName":"",
       "socialDestination": "",
       "contentOrigin":""
@@ -57,9 +52,24 @@
    "userProfile": {
       "UID": "",
       "loginStatus": "",
-      "loginType": ""
+      "loginType": "",
+      "registrationType": "",
+      "recoveryStatus": true,
+      "recoveryStatusComplete": true,
+      "accountDelete": true,
+      "newsletter": {
+         "newsletterActive": true,
+         "newsletterTopic": ""
+      }
    },
-   "cookie-acceptance": {
+   "thirdPartyService" :{
+      "method": "",
+      "query": "",
+      "callID": "",
+      "callError": ""
+   },
+   "eventInfo" :{
+      "eventName" :""
    },
    "component": {
       "wizard": {
@@ -73,22 +83,15 @@
          "formFieldName":"",
          "formEnd":"",
          "formError": "",
-         "isTouched": "",
-         "registrationType": "",
-         "recoveryStatus": true,
-         "recoveryStatusComplete": true,
-         "accountDelete": true,
-         "newsletter": {
-            "newsletterActive": true,
-            "newsletterTopic": ""
-         }
+         "isTouched": ""
       },
       "carousel": {
          "carouselTotalItem": 1,
-         "destinationRelatedList":"",
          "contentType":"",
          "carouselIntent": "",
-         "contentOrigin": ""
+         "contentOrigin": "",
+         "componentType": "",
+         "componentName": ""
       },
       "gallery": {
          "galleryMaxItem": 1,
@@ -107,24 +110,22 @@
          "videoEventAtTime": "",
          "videoPlayerType": "",
          "videoViewsPerc": "",
-         "destinationRelatedList":""
+         "destinationRelatedList": []
       },
       "search": {
          "searchTerm": "",
          "byFilter": "",
          "searchType": "",
-         "byFilterRefine": "",
+         "byFilterRefine": [],
          "searchAction": "",
-         "finalPageName":"",
          "contentType": "",
-         "destinationRelatedList": ""
+         "destinationRelatedList": []
       },
       "card": {
          "contentType": "",
-         "destinationRelatedList": "",
+         "destinationRelatedList": [],
          "contentPosition": "",
          "contentOrigin": "",
-         "finalPageName":"",
          "componentType":"",
          "componentName":"",
          "isFavourite":""
