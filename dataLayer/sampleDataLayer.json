@@ -39,7 +39,7 @@
    },
    "link": {
       "linkType": "",
-      "ctaName": "",
+      "linkName": "",
       "linkDestination": "",
       "componentType":"",
       "componentName":"",
@@ -56,11 +56,7 @@
       "registrationType": "",
       "recoveryStatus": true,
       "recoveryStatusComplete": true,
-      "accountDelete": true,
-      "newsletter": {
-         "newsletterActive": true,
-         "newsletterTopic": ""
-      }
+      "accountDelete": true
    },
    "thirdPartyService" :{
       "method": "",
@@ -83,7 +79,11 @@
          "formFieldName":"",
          "formEnd":"",
          "formError": "",
-         "isTouched": ""
+         "isTouched": "",
+         "newsletter": {
+            "newsletterActive": true,
+            "newsletterTopic": ""
+         }
       },
       "carousel": {
          "carouselTotalItem": 1,
