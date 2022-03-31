@@ -1,5 +1,4 @@
 // CP.8
-window.adobeDataLayer = window.adobeDataLayer || [];
 window.adobeDataLayer.push({
    event: 'carousel-intent',
    eventInfo :{
