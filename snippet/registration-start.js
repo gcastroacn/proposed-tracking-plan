@@ -8,9 +8,8 @@ window.adobeDataLayer.push({
         },
         component: {
             form: {
-                "isTouched": ''
+                isTouched: ''
             }
         }
-        // TBD
     }
 });

@@ -1,15 +1,18 @@
 // W.001.2
 window.adobeDataLayer.push({
-    event: 'wizard-close',
-    data: {
-      viaggioStagione: '',
-      viaggioPartecipanti: '',
-      viaggioFotoLuoghi: '',
-      viaggioWizardStep: '',
-      pageName: '',
-      viaggioTipo: '',
-      viaggioPartecipanti: '',
-      viaggioFotoLuoghi: '',
-      viaggioWizardStep: ''
+  event: 'wizardClose',
+  data: {
+    eventInfo: {
+      eventName: 'wizardClose',
+      wizardNext: 1
     },
-  });
+    component: {
+      wizard: {
+        'travelSeason': '',
+        'travelParticipants': '',
+        'travelInterests': [],
+        'travelWizardStep': 1
+      }
+    }
+  }
+});

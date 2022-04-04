@@ -2,13 +2,13 @@ window.adobeDataLayer.push({
     event: 'thirdPartyService',
     data: {
         eventInfo: {
-            "eventName": "thirdPartyService",
-            "thirdPartyService": 1
+            eventName: 'thirdPartyService',
+            thirdPartyService: 1
         },
         thirdPartyService: {
-            "method": "",
-            "callID": "",
-            "callError": ""
+            method: '',
+            callID: '',
+            callError: ''
         }
     }
 })
