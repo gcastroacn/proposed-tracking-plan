@@ -1,11 +1,19 @@
 // CP.13
 window.adobeDataLayer.push({
-    event: 'internal-search',
+    event: 'internalSearch',
     data: {
-        searchTerm:'',
-        byFilter:'',
-        byFilterRefine:'',
-        searchAction:'',
-        searchType:''
+        eventInfo: {
+            eventName: 'internalSearch',
+            internalSearch: 1
+        },
+        component: {
+            search: {
+                searchTerm: '',
+                byFilter: '',
+                byFilterRefine: '',
+                searchAction: ''
+            }
+        }
+
     },
-  });
+});

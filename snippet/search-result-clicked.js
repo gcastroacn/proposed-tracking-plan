@@ -1,13 +1,22 @@
 // CP.14
 window.adobeDataLayer.push({
-    event: 'search-result-clicked',
+    event: 'searchResult',
     data: {
-        searchTerm:'',
-        byFilter:'',
-        byFilterRefine:'',
-        searchType:'',
-        contentTag:'',
-        contentType:'',
-        cardName:''
-    },
-  });
+        eventInfo: {
+            eventName: 'searchResult',
+            searchResult: 1,
+        },
+        link: {
+            finalPageName: ''
+        },
+        search: {
+            searchTerm: '',
+            byFilter: '',
+            byFilterRefine: '',
+            searchAction: '',
+            searchType: '',
+            contentType: '',
+            destinationRelatedList: '',
+        }
+    }
+});

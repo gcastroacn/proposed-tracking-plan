@@ -1,9 +1,17 @@
 //R.005.1
 window.adobeDataLayer.push({
-    event: 'newsletter-update',
+    event: 'newsletterUpdate',
     data: {
-        UID: '',
-        newsletterActive: '',
-        newsletterTopic: ''
-    },
-  });
+        eventInfo: {
+            eventName: 'newsletterUpdate',
+            newsletterUpdate: 1
+        },
+        component: {
+            form: {
+                newsletterActive: '',
+                newsletterTopic: ''
+            }
+        }
+
+    }
+});

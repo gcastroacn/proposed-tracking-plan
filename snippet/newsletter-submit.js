@@ -1,9 +1,20 @@
 //CP.2
 window.adobeDataLayer.push({
-    event: 'newsletter-sub-submit',
+    event: 'newsletterSubSubmit',
     data: {
-        UID: '',
-        newsletterActive: '',
-        newsletterTopic: ''
-    },
+        eventInfo:{
+           eventName: 'newsletterSubSubmit',
+           newsletterSubSubmit: 1
+        },
+        userProfile:{
+            UID: ''
+        },
+        component:{
+            form:{
+                newsletterActive: '',
+                newsletterTopic: ''
+            }
+        }
+       
+    }
   });

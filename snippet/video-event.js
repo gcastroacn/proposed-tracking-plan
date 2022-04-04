@@ -1,17 +1,25 @@
 // CP.12
 window.adobeDataLayer.push({
-    event: 'video-event',
+    event: 'videoEvent',
     data: {
-        videoID:'',
-        videoTitle:'',
-        videoProvider:'',
-        videoSection:'',
-        videoDuration:'',
-        videoEvent:'',
-        videoEventAtTime:'',
-        videoPlayerType:'',
-        videoCustomEvent:'',
-        videoViewsPerc:'',
-        contentTag:''
-    },
-  });
+        eventInfo: {
+            eventName: 'videoEvent',
+            videoEvent: 1,
+        },
+        component: {
+            video: {
+                videoID: '',
+                videoTitle: '',
+                videoProvider: '',
+                videoDuration: '',
+                videoEvent: '',
+                videoEventAtTime: '',
+                videoPlayerType: '',
+                videoViewsPerc: '',
+                destinationRelatedList: '',
+                componentName: '',
+                componentType: ''
+            }
+        }
+    }
+});

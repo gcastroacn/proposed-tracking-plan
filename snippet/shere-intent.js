@@ -1,7 +1,15 @@
 // CP.5
 window.adobeDataLayer.push({
-    event: 'share-intent',
+    event: 'shareIntent',
     data: {
-        pageName:'',
-    },
-  });
+        eventInfo: {
+            eventName: 'shareIntent',
+            shareIntent: 1
+        },
+        page: {
+            pageInfo: {
+                pageName: '',
+            }
+        }
+    }
+});

@@ -3,17 +3,17 @@ window.adobeDataLayer.push({
     event: 'carouselIntent',
     data: {
         eventInfo: {
-            "eventName": "carouselIntent",
-            "carouselIntent": 1
+            eventName: 'carouselIntent',
+            carouselIntent: 1
         },
         component: {
             carousel: {
-                "carouselTotalItem": 1,
-                "contentType": "",
-                "carouselIntent": "",
-                "contentOrigin": "",
-                "componentType": "",
-                "componentName": ""
+                carouselTotalItem: 1,
+                contentType: '',
+                carouselIntent: '',
+                contentOrigin: '',
+                componentType: '',
+                componentName: ''
             }
         }
     }

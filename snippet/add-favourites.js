@@ -1,13 +1,30 @@
 // CP.7
 window.adobeDataLayer.push({
-    event: 'add-favourites',
+    event: 'addFavourites',
     data: {
-        contentTag:'',
-        UID:'',
-        contentType:'',
-        cardName:'',
-        cardPosition:'',
-        cardOrigin:'',
-        isFavourite:''
-    },
-  });
+        eventInfo: {
+            eventName: 'addFavourites',
+            addFavourites: 1
+        },
+        page: {
+            attributes: {
+                contentType: '',
+                destinationRelatedList: ''
+
+            }
+        },
+        userProfile: {
+            UID: ''
+        },
+        link: {
+            finalPageName: '',
+            contentPosition: '',
+            contentOrigin: ''
+        },
+        component: {
+            card: {
+                isFavourite: ''
+            }
+        }
+    }
+});

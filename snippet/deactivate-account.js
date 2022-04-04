@@ -1,7 +1,13 @@
 // R.004.1
 window.adobeDataLayer.push({
-    event: 'account-deactivation',
+    event: 'accountDeactivation',
     data: {
-        accountDelete:''
-    },
-  });
+        eventInfo: {
+            eventName: 'accountDeactivation',
+            accountDeactivation: 1
+        },
+        userProfile: {
+            accountDelete: ''
+        }
+    }
+});

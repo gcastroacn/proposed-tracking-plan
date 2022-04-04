@@ -1,7 +1,13 @@
 // R.003.1
 window.adobeDataLayer.push({
-    event: 'reset-password',
+    event: 'resetPassword',
     data: {
-        recoveryStatus:''
-    },
-  });
+        eventInfo: {
+            eventName: 'resetPassword',
+            resetPassword: 1
+        },
+        userProfile: {
+            recoveryStatus: ''
+        }
+    }
+});
