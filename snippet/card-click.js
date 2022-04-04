@@ -1,12 +1,25 @@
 // CP.9
 window.adobeDataLayer.push({
-    event: 'card-click',
+    event: 'cardClick',
+
     data: {
-        contentTag: '',
-        contentType: '',
-        cardName: '',
-        cardPosition: '',
-        cardPageSection: '',
-        cardOrigin: ''
-    },
+        eventInfo: {
+            eventName: 'cardClick',
+            cardClick: 1
+        },
+        page: {
+            attributes: {
+                destinationRelatedList: '',
+                contentType: ''
+            }
+
+        },
+        link: {
+            finalPageName: '',
+            componentType: '',
+            componentName: '',
+            contentPosition: '',
+            contentOrigin: '',
+        }
+    }
 });

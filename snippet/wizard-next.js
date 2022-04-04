@@ -1,11 +1,19 @@
 // W.001.1
 window.adobeDataLayer.push({
-  event: 'wizard-next',
+  event: 'wizardNext',
   data: {
-    viaggioStagione: '',
-    viaggioPartecipanti: '',
-    viaggioFotoLuoghi: '',
-    viaggioWizardStep: '',
-  },
+    eventInfo: {
+      eventName: 'wizardNext',
+      wizardNext: 1
+    },
+    component: {
+      wizard: {
+        'travelSeason': '',
+        'travelParticipants': '',
+        'travelInterests': [],
+        'travelWizardStep': 1
+      }
+    }
+  }
 });
 

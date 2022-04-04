@@ -1,8 +1,18 @@
 // CP.6
 window.adobeDataLayer.push({
-    event: 'share-intent-perform',
+    event: 'shareIntentPerform',
     data: {
-        pageName:'',
-        socialDestination:''
-    },
-  });
+        eventInfo: {
+            eventName: 'shareIntentPerform',
+            shareIntentPerform: 1
+        },
+        page: {
+            pageInfo: {
+                pageName: ''
+            }
+        },
+        link: {
+            socialDestination: ''
+        }
+    }
+});

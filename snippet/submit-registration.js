@@ -1,10 +1,14 @@
 // R.002.2
 window.adobeDataLayer.push({
-    event: 'registration-submit',
+    event: 'registrationSubmit',
     data: {
-        registrationType:'',
-        UID:'' ,
-newsletterActive:'',
-newsletterTopic:''
-    },
+        eventInfo: {
+            eventName : 'registrationSubmit',
+            registrationSubmit: 1
+        },
+        userPorfile: {
+            registrationType:'',
+            UID:'' 
+        }
+    }
   });

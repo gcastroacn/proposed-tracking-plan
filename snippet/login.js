@@ -1,9 +1,15 @@
 // R.001.1
 window.adobeDataLayer.push({
-    event: 'login',
+    event: 'loginSubmit',
     data: {
-        loginStatus: '',
-        loginType: '',
-        UID: ''        
+        eventInfo: {
+            eventName: 'loginSubmit',
+            loginSubmit: 1
+        },
+        userProfile: {
+            loginStatus: '',
+            loginType: '',
+            UID: ''
+        }
     },
-  });
+});
