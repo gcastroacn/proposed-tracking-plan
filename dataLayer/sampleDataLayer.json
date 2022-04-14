@@ -45,7 +45,6 @@
       "componentName":"",
       "contentPosition":"",
       "linkExtMetas": "",
-      "finalPageName":"",
       "socialDestination": "",
       "contentOrigin":""
    },
@@ -128,6 +127,7 @@
          "contentOrigin": "",
          "componentType":"",
          "componentName":"",
+         "finalPageName":"",
          "isFavourite":""
       }
    }
