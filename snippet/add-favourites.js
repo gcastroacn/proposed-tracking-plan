@@ -6,24 +6,17 @@ window.adobeDataLayer.push({
             eventName: 'addFavourites',
             addFavourites: 1
         },
-        page: {
-            attributes: {
-                contentType: '',
-                destinationRelatedList: ''
-
-            }
-        },
         userProfile: {
             UID: ''
         },
-        link: {
-            finalPageName: '',
-            contentPosition: '',
-            contentOrigin: ''
-        },
         component: {
             card: {
-                isFavourite: ''
+                isFavourite: '',
+                destinationRelatedList: '',
+                finalPageName: '',
+                contentPosition: '',
+                contentOrigin: '',
+                contentType: ''
             }
         }
     }

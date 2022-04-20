@@ -7,19 +7,14 @@ window.adobeDataLayer.push({
             eventName: 'cardClick',
             cardClick: 1
         },
-        page: {
-            attributes: {
-                destinationRelatedList: '',
-                contentType: ''
-            }
-
-        },
-        link: {
+        card: {
             finalPageName: '',
             componentType: '',
             componentName: '',
             contentPosition: '',
             contentOrigin: '',
+            destinationRelatedList: '',
+            contentType: '',
         }
     }
 });

@@ -11,7 +11,8 @@ window.adobeDataLayer.push({
                 searchTerm: '',
                 byFilter: '',
                 byFilterRefine: '',
-                searchAction: ''
+                searchAction: '',
+                searchType: ''
             }
         }
 

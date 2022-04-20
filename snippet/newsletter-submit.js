@@ -2,19 +2,20 @@
 window.adobeDataLayer.push({
     event: 'newsletterSubSubmit',
     data: {
-        eventInfo:{
-           eventName: 'newsletterSubSubmit',
-           newsletterSubSubmit: 1
+        eventInfo: {
+            eventName: 'newsletterSubSubmit',
+            newsletterSubSubmit: 1
         },
-        userProfile:{
+        userProfile: {
             UID: ''
         },
-        component:{
-            form:{
-                newsletterActive: '',
-                newsletterTopic: ''
+        component: {
+            form: {
+                newsletter: {
+                    newsletterActive: true,
+                    newsletterTopic: ''
+                }
             }
         }
-       
     }
-  });
+});

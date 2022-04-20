@@ -8,10 +8,11 @@ window.adobeDataLayer.push({
         },
         component: {
             form: {
-                newsletterActive: '',
-                newsletterTopic: ''
+                newsletter: {
+                    newsletterActive: true,
+                    newsletterTopic: ''
+                }
             }
         }
-
     }
 });

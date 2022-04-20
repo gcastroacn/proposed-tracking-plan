@@ -6,8 +6,10 @@ window.adobeDataLayer.push({
             eventName: 'searchResult',
             searchResult: 1,
         },
-        link: {
-            finalPageName: ''
+        card: {
+            finalPageName: '',
+            contentType: '',
+            destinationRelatedList: '',
         },
         search: {
             searchTerm: '',
@@ -15,8 +17,6 @@ window.adobeDataLayer.push({
             byFilterRefine: '',
             searchAction: '',
             searchType: '',
-            contentType: '',
-            destinationRelatedList: '',
         }
     }
 });
