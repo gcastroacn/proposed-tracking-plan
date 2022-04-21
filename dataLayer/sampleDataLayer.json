@@ -28,7 +28,7 @@
          "contentType": ".",
          "destinationRelatedList": "",
          "isFavourite":".",
-         "contentTag": [],
+         "contentTag": "",
          "contentAuthor": ".",
          "contentID": ".",
          "contentRead": ".",
@@ -43,7 +43,6 @@
       "linkDestination": ".",
       "componentType":".",
       "componentName":".",
-      "contentPosition":".",
       "linkExtMetas": "",
       "socialDestination": "",
       "contentOrigin":""

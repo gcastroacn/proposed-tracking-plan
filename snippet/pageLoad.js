@@ -23,9 +23,9 @@ window.adobeDataLayer.push({
          },
          attributes: {
             "contentType": "",
-            "destinationRelatedList": [],
+            "destinationRelatedList": "",
             "isFavourite":"",
-            "contentTag": [],
+            "contentTag": "",
             "contentAuthor": "",
             "contentID": "",
             "estimatedReadTime": "",
@@ -42,3 +42,4 @@ window.adobeDataLayer.push({
       }
    }
 });    
+
